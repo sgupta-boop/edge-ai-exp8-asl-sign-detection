@@ -1,0 +1,21 @@
+# Dataset (~1 GB) - re-download with training/download_data.py
+data/
+
+# Models and big generated artifacts - shared separately (see README "Large files")
+*.npz
+*.keras
+*.tflite
+*.h5
+training/out/model_data.cc
+android/SignEdge/app/src/main/assets/*.tflite
+
+# Python / Android build output
+__pycache__/
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+
+# Training console log (1.7 MB of progress bars)
+training/train.log

@@ -1,0 +1,20 @@
+{
+  "params": 82755,
+  "keras_fp32_kb": 1055.0,
+  "tflite_fp32_kb": 326.8,
+  "tflite_int8_kb": 92.3,
+  "size_reduction_x": 3.54,
+  "test_acc_fp32": 0.9569,
+  "test_acc_int8": 0.9578,
+  "pc_latency_fp32_ms": 0.169,
+  "pc_latency_int8_ms": 0.266,
+  "input_quant": {
+    "scale": 0.0038908112328499556,
+    "zero_point": -128
+  },
+  "output_quant": {
+    "scale": 0.00390625,
+    "zero_point": -128
+  },
+  "test_samples": 8100
+}
